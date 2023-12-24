@@ -1,0 +1,36 @@
+/* common */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* end common */
+
+/* root */
+
+:root {
+    --contenitore1-color: rgb(255, 105, 0);
+}
+
+/* end root */
+
+.fixed {
+    background-color: var(--contenitore1-color);
+    width: auto;
+    height: 80px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.photos {
+    height: 130mm;
+    width: 100mm;
+    background-color: rgb(193, 95, 186);
+    border: 1px solid black;
+    margin: 50px 10px;
+}
