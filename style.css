@@ -79,10 +79,30 @@ li {
     margin-left: 1%;
 }
 
-.heart {
+.empty-heart {
     position: absolute;
-    top: 6%;
-    right: 4%;
+    top: 5%;
+    right: 3%;
+}
+
+.icon-box {
+    position: relative;
+    top: -94%;
+    left: -11px;
+}
+
+.red-heart {
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    transition: .5s ease;
+    color:red; 
+    opacity: 0;
+}
+
+.icon-box:hover .red-heart{
+    opacity: 1;
 }
 
 .absolute {
