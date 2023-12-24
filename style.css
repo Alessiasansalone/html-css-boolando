@@ -27,8 +27,10 @@ li {
 .fixed {
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    z-index: 1;
     background-color: var(--contenitore1-color);
-    width: auto;
+    width: 100%;
     height: 90px;
 }
 
@@ -69,12 +71,18 @@ li {
 .photos {
     height: 190mm;
     width: 140mm;
-    background-color: rgb(193, 95, 186);
     position: relative;
 }
 
 .photos-top {
-    margin: 5% 1%;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+
+.heart {
+    position: absolute;
+    top: 6%;
+    right: 4%;
 }
 
 .absolute {
@@ -101,7 +109,9 @@ li {
 }
 
 .photos-bottom {
-    margin: 5% 1%;
+    margin-top: 7%;
+    margin-left: 1%;
+    margin-bottom: 5%;
 }
 
 .fsize {
@@ -139,3 +149,149 @@ li {
     left: 82%;
     line-height: 40px;
 }
+
+/* :hover */
+
+/* photo 1 */
+.p1 {
+    position: relative;
+}
+
+.overlay1 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p1:hover .overlay1 {
+    opacity: 1;
+}
+
+/* end 1 */
+
+/* photo 2 */
+.p2 {
+    position: relative;
+}
+
+.overlay2 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p2:hover .overlay2 {
+    opacity: 1;
+}
+
+/* end 2 */
+
+/* photo 3 */
+.p3 {
+    position: relative;
+}
+
+.overlay3 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p3:hover .overlay3 {
+    opacity: 1;
+}
+
+/* end 3 */
+
+/* photo 4 */
+.p4 {
+    position: relative;
+}
+
+.overlay4 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p4:hover .overlay4 {
+    opacity: 1;
+}
+
+/* end 4 */
+
+/* photo 5 */
+.p5 {
+    position: relative;
+}
+
+.overlay5 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p5:hover .overlay5 {
+    opacity: 1;
+}
+
+/* end 5 */
+
+/* photo 6 */
+.p6 {
+    position: relative;
+}
+
+.overlay6 {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.p6:hover .overlay6 {
+    opacity: 1;
+}
+
+/* end 6 */
