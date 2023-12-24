@@ -19,7 +19,7 @@
 .fixed {
     background-color: var(--contenitore1-color);
     width: auto;
-    height: 80px;
+    height: 90px;
 }
 
 .flex {
@@ -29,8 +29,22 @@
 
 .photos {
     height: 130mm;
-    width: 100mm;
+    width: 110mm;
     background-color: rgb(193, 95, 186);
     border: 1px solid black;
+}
+
+.photos-top {
     margin: 50px 10px;
+}
+
+.photos-bottom {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.bottom {
+    background-color: rgb(26, 26, 26);
+    height: 110px;
+    margin-top: 50px;
 }
