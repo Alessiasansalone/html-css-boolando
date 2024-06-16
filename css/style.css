@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-title {
+    max-width: 890px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-4 {
+    padding-top: 5px;
+}
+
+img {
+    width: 280px;
+}
+
+.red-price {
+    color: red;
+}
