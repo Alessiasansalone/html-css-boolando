@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+.top-page {
+    height: 40px;
+    background-color: rgb(254, 105, 0);
+}
+
+.nav-bar {
+    display: flex;
+    gap: 16px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-title {
     max-width: 890px;
     margin: 0 auto;
@@ -20,6 +38,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.col {
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
 
 .col-4 {
