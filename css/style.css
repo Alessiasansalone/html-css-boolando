@@ -10,8 +10,11 @@ body {
 }
 
 .top-page {
+    display: flex;
     height: 40px;
     background-color: rgb(254, 105, 0);
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav-bar {
@@ -19,7 +22,10 @@ body {
     gap: 16px;
     color: white;
     justify-content: center;
-    align-items: center;
+}
+
+.logo {
+    width: 130px;
 }
 
 .container-title {
