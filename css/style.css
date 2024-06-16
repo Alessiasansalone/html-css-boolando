@@ -28,6 +28,12 @@ body {
     width: 130px;
 }
 
+i {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
 .container-title {
     max-width: 890px;
     margin: 0 auto;
@@ -39,6 +45,7 @@ body {
     max-width: 890px;
     margin: 0 auto;
 }
+
 
 .row {
     display: flex;
