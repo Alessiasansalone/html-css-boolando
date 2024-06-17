@@ -12,10 +12,12 @@ body {
 
 .top-page {
     display: flex;
-    height: 40px;
+    position: fixed;
+    height: 50px;
     background-color: rgb(254, 105, 0);
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 
 .top-bar {
@@ -40,7 +42,7 @@ body {
     max-width: 890px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 85px;
 }
 
 .container {
